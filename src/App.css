@@ -1,6 +1,30 @@
+.Wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+} 
+
+.Container {
+  display: flex;
+  flex-flow: wrap;
+  width: 630px;
+}
+
 .Cell {
-  border: 3px solid black;
-  height: 100px;
-  width: 100px;
-  margin-left: 100px;
+  border: 5px solid rgb(119, 8, 8);
+  height: 50px;
+  width: 50px;
+  margin: 1px;
+}
+
+.Cell:hover {
+  cursor: pointer;
+  border-color: yellow;
+}
+
+.Highlighted {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: crimson;
 }
